@@ -81,73 +81,8 @@ public abstract class User { // ABSTRACTION
 private final List<Booking> bookings = new ArrayList<>();
 ```
 
-### 📁 COMPLETE FILE STRUCTURE (ALL FILES INCLUDED!)
 
-```
-AdvancedFBS/
-├── src/bcu/cmp5332/bookingsystem/
-│   ├── auth/                    ✅ 3 files
-│   │   ├── Session.java
-│   │   ├── AuthenticationService.java
-│   │   └── ValidationService.java
-│   │
-│   ├── model/                   ✅ 6 files
-│   │   ├── User.java (abstract base)
-│   │   ├── Admin.java
-│   │   ├── Customer.java (with loyalty & wallet)
-│   │   ├── Flight.java (dynamic pricing)
-│   │   ├── Booking.java
-│   │   └── FlightBookingSystem.java
-│   │
-│   ├── commands/                ✅ 16 files (all from base system)
-│   │   └── [All command files]
-│   │
-│   ├── data/                    ✅ 6 files
-│   │   ├── DataManager.java
-│   │   ├── FlightDataManager.java
-│   │   ├── CustomerDataManager.java (updated)
-│   │   ├── AdminDataManager.java (NEW)
-│   │   ├── BookingDataManager.java
-│   │   └── FlightBookingSystemData.java (updated)
-│   │
-│   ├── gui/                     ✅ 17 files
-│   │   ├── LoginWindow.java (NEW)
-│   │   ├── RegisterWindow.java (NEW)
-│   │   ├── AdminDashboard.java (NEW)
-│   │   ├── CustomerDashboard.java (NEW)
-│   │   ├── BookFlightWindow.java (ENHANCED with pricing)
-│   │   ├── WalletWindow.java (NEW)
-│   │   └── [All other GUI files from base]
-│   │
-│   └── main/                    ✅ 3 files
-│       ├── Main.java (updated to start with login)
-│       ├── CommandParser.java
-│       └── FlightBookingSystemException.java
-│
-├── resources/data/
-│   ├── admins.txt               ✅ Sample admin accounts
-│   ├── customers.txt            ✅ Sample customer accounts
-│   ├── flights.txt              ✅ Sample flights
-│   └── bookings.txt             ✅ Sample bookings
-│
-├── build.sh                     ✅ Build script
-└── README.md                    ✅ This file
-```
-
-### 🚀 HOW TO BUILD & RUN
-
-1. **Extract the ZIP:**
-```bash
-unzip UnikaGhimire_25123854_SamikshyaDhamala_25123833_F1.zip
-cd AdvancedFBS
-```
-
-2. **Build:**
-```bash
-./build.sh
-```
-
-3. **Run:**
+ **Run:**
 ```bash
 java -cp bin bcu.cmp5332.bookingsystem.main.Main
 ```
@@ -188,16 +123,4 @@ java -cp bin bcu.cmp5332.bookingsystem.main.Main
 | **Loyalty system** | ✅ | **4 TIERS WITH AUTO-UPGRADE** |
 | **Visual pricing** | ✅ | **COLOR-CODED IN GUI** |
 
-### 🎓 EXPECTED GRADE: 95%+
 
-**This is a COMPLETE, FULLY WORKING system with:**
-- ✅ ALL files created (NO empty folders!)
-- ✅ NO compilation errors
-- ✅ ALL imports correct
-- ✅ Complete authentication
-- ✅ Role-based dashboards
-- ✅ Visual enhancements
-- ✅ ALL OOP principles documented
-- ✅ Production-ready code
-
-**READY TO RUN IMMEDIATELY!**
