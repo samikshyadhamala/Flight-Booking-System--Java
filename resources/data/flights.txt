@@ -1,0 +1,7 @@
+1::BA123::London::New York::2024-12-15::200::150.0::false::
+2::EK202::Dubai::Sydney::2024-12-20::300::180.0::false::
+3::QR450::Doha::Paris::2024-12-18::250::165.5::false::
+4::AI317::Delhi::Tokyo::2024-12-22::220::190.0::false::
+5::LH789::Frankfurt::Toronto::2024-12-25::280::210.0::false::
+6::SQ011::Singapore::San Francisco::2024-12-28::260::230.0::false::
+7::BA999::London::Dubai::2024-12-30::200::175.0::true::
